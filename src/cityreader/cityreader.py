@@ -39,7 +39,7 @@ cityreader(cities)
 
 # Print the list of cities (name, lat, lon), 1 record per line.
 for c in cities:
-    print(f"City: {c.name}, can be found at the coordinates of: {c.lat} by {c.lon}")
+    print(c.name, c.lat, c.lon)
 
 # STRETCH GOAL!
 #
